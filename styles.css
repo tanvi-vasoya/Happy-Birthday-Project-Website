@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url('image.png') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+#arcText {
+    position: absolute;
+    font-family: 'Cursive', sans-serif;
+    /* Stylish font, replace with actual font if needed */
+    font-size: 4em;
+    color: rgb(69, 45, 11);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    /* 3D effect */
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+}
+
+#confettiCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* This aligns the items at the bottom */
+    height: 100vh;
+}
+
+.box_name {
+    /* display: flex; */
+    position: absolute;
+
+
+
+    /* height: 500px; */
+    /* align-items: flex-end; */
+    /* top: 10px; */
+    bottom: 80px;
+    left: 45%;
+
+}
+
+#name {
+    /* position: absolute; */
+    font-family: 'Cursive', sans-serif;
+    font-size: 3em;
+    color: rgb(69, 45, 11);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /*3D effect */
+    text-align: center;
+    font-weight: bold;
+}
