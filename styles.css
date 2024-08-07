@@ -59,7 +59,7 @@ body {
 #name {
     /* position: absolute; */
     font-family: 'Cursive', sans-serif;
-    font-size: 3em;
+    font-size: 4em;
     color: rgb(69, 45, 11);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); /*3D effect */
     text-align: center;
