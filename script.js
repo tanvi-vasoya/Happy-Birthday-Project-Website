@@ -5,7 +5,7 @@ window.onload = function() {
         origin: { y: 0.6 },
         colors: ['#ff0', '#f0f', '#0ff', '#f00']
     });
-    document.getElementById('name').innerText='NAME'
+    document.getElementById('name').innerText='MOU'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
